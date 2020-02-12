@@ -21,8 +21,10 @@ $ cd npwut
 $ go build
 $ mkdir ~/bin
 $ mv npwut ~/bin
-BASH: export PATH=$PATH:/home/<user>/bin
-ZSH: path+=('/home/<user>/bin')
+$ BASH: export PATH=$PATH:/home/<user>/bin
+or
+$ ZSH: path+=('/home/<user>/bin')
+$ chmod u+x /home/<user>/bin/npwut
 ```
 
 # TODO

@@ -1,4 +1,4 @@
-package npwut
+package main
 
 import (
 	"encoding/json"
